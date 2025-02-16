@@ -400,6 +400,10 @@ $text-align: center;
         font-style: italic;
         line-height: 48.74px;
         color: $primary-color;
+        max-width: 471px;
+        width: 100%;
+        text-transform: capitalize;
+        margin: 0 auto;
         margin-bottom: 36px;
         
     }
@@ -410,6 +414,10 @@ $text-align: center;
         font-size: 13px;
         line-height: 15.26px;
         color: $primary-color;
+        max-width: 471px;
+        width: 100%;
+        text-transform: uppercase;
+        margin: 0 auto;
     }
     
     &__container-dots{
