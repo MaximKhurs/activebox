@@ -300,4 +300,63 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.testimonials {
+  margin-bottom: 114px;
+}
+.testimonials__container {
+  max-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+.testimonials__wrapper-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 31px;
+}
+.testimonials__wrapper-img {
+  overflow: hidden;
+}
+.testimonials__img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.testimonials__content {
+  background-color: #5C3249;
+  padding: 116px 129px;
+}
+.testimonials__text {
+  font-family: "Cardo", serif;
+  font-size: 36px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 48.74px;
+  color: #fff;
+  margin-bottom: 36px;
+}
+.testimonials__name {
+  font-family: "Raleway", serif;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15.26px;
+  color: #fff;
+}
+.testimonials__container-dots {
+  display: flex;
+  -moz-column-gap: 25px;
+       column-gap: 25px;
+  justify-content: center;
+}
+.testimonials__dot {
+  width: 14px;
+  height: 14px;
+  border: 1px solid #7E5D6F;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.testimonials__dot:hover {
+  background-color: #7E5D6F;
 }/*# sourceMappingURL=style.css.map */

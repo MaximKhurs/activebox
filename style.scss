@@ -363,4 +363,70 @@ $text-align: center;
     }
 }
 
+.testimonials{
+     margin-bottom: 114px;
 
+    &__container{
+        max-width: 100%;
+        padding: 0;
+        width: 100%;
+    }
+
+    &__wrapper-content{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-bottom: 31px;
+    }
+    
+    &__wrapper-img{
+        overflow: hidden;
+    }
+
+    &__img{
+        width:100%;
+        height:100%;
+        object-fit: cover;
+    }
+
+    &__content{
+        background-color: #5C3249;
+        padding: 116px 129px;
+    }
+
+    &__text{
+        font-family: 'Cardo', serif;
+        font-size: 36px;
+        font-weight: 400;
+        font-style: italic;
+        line-height: 48.74px;
+        color: $primary-color;
+        margin-bottom: 36px;
+    }
+
+    &__name{
+        font-family: $primary-font-family;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 15.26px;
+        color: $primary-color;
+    }
+    
+    &__container-dots{
+        display: flex;
+        column-gap: 25px;
+        justify-content: center;
+    }
+
+    &__dot{
+        width: 14px;
+        height: 14px;
+        border: 1px solid #7E5D6F;
+        border-radius: 50%;
+        background-color: #fff;
+        
+        &:hover{
+            background-color: #7E5D6F;
+        }
+            
+    }
+}
