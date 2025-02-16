@@ -12,7 +12,7 @@ $text-align: center;
 
 .banner{
     background-image: url('images/banner.png');
-    background-size: contain;
+    background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
     position: relative;
@@ -27,6 +27,11 @@ $text-align: center;
             left:0;
             top:0;
         
+    }
+
+    &__container{
+        z-index: 1;
+        position: relative
     }
 
     &__title{
@@ -47,7 +52,8 @@ $text-align: center;
         font-size: $font-size;
         line-height: 28px;
         text-align: $text-align;
-        margin-bottom: 79.57px;
+        margin: 0 auto 79.57px;
+        max-width: 1000px;
     }
 
     &__button{
@@ -64,6 +70,7 @@ $text-align: center;
         background-color: #FF4343;
         padding: 26px 10px;
         margin: 0 auto;
+        text-transform: uppercase;
 
 
         &:hover{
@@ -83,13 +90,10 @@ $text-align: center;
     padding: 0 20px;
     width: 100%;
     margin: 0 auto;
-    z-index: 1;
-    position: relative;
 }
 
 
 .options{
-    padding: 116px 170px;
 
     &__list{
         list-style: none;
@@ -110,7 +114,7 @@ $text-align: center;
         justify-content: center;
         width: 100px;
         height:100px;
-        margin: 0 auto 29px;
+        margin: 0 auto 51px;
     }
 
     &__title{
@@ -120,9 +124,9 @@ $text-align: center;
         text-align: $text-align;
         line-height: 28px;
         color: #2D3033;
-        margin-bottom: 20px;
+        margin-bottom: 42px;
         text-transform: uppercase;
-        padding: 22px 10px;
+
     }
 
     &__text{

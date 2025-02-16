@@ -6,7 +6,7 @@
 
 .banner {
   background-image: url("images/banner.png");
-  background-size: contain;
+  background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
   position: relative;
@@ -20,6 +20,10 @@
   position: absolute;
   left: 0;
   top: 0;
+}
+.banner__container {
+  z-index: 1;
+  position: relative;
 }
 .banner__title {
   font-family: "Raleway", serif;
@@ -38,7 +42,8 @@
   font-size: 24px;
   line-height: 28px;
   text-align: center;
-  margin-bottom: 79.57px;
+  margin: 0 auto 79.57px;
+  max-width: 1000px;
 }
 .banner__button {
   display: block;
@@ -54,6 +59,7 @@
   background-color: #FF4343;
   padding: 26px 10px;
   margin: 0 auto;
+  text-transform: uppercase;
 }
 .banner__button:hover {
   background-color: #E71414;
@@ -64,16 +70,12 @@
 }
 
 .container {
-  max-width: 1170px;
+  max-width: 1210px;
+  padding: 0 20px;
   width: 100%;
   margin: 0 auto;
-  z-index: 1;
-  position: relative;
 }
 
-.options {
-  padding: 116px 170px;
-}
 .options__list {
   list-style: none;
   display: flex;
@@ -92,7 +94,7 @@
   justify-content: center;
   width: 100px;
   height: 100px;
-  margin: 0 auto 29px;
+  margin: 0 auto 51px;
 }
 .options__title {
   font-family: "Raleway", serif;
@@ -101,9 +103,8 @@
   text-align: center;
   line-height: 28px;
   color: #2D3033;
-  margin-bottom: 20px;
+  margin-bottom: 42px;
   text-transform: uppercase;
-  padding: 22px 10px;
 }
 .options__text {
   font-family: "Raleway", serif;
