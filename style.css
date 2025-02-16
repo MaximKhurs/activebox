@@ -235,4 +235,67 @@
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.team {
+  margin-bottom: 114px;
+}
+.team__container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}
+.team__worker {
+  max-width: 270px;
+  width: 100%;
+}
+.team__wrapper-photo {
+  width: 100%;
+  aspect-ratio: 1/1;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.team__photo {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.team__name {
+  font-family: "Raleway", serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #2D3033;
+  margin-bottom: 5.29px;
+}
+.team__profession {
+  font-size: 18px;
+  line-height: 21px;
+  color: #FF4343;
+  font-family: "Raleway", serif;
+  font-weight: 400;
+  margin-bottom: 17.86px;
+  text-transform: uppercase;
+}
+.team__text {
+  font-size: 18px;
+  line-height: 21px;
+  color: #6C7279;
+  font-family: "Raleway", serif;
+  font-weight: 400;
+  margin-bottom: 37.86px;
+}
+.team__list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 39px);
+}
+.team__wrapper-link {
+  display: block;
+  width: 39px;
+  height: 39px;
+  border: 1px solid #C6CBCD;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */
