@@ -79,7 +79,7 @@ $text-align: center;
 
 .banner{
     background-image: url('images/banner.png');
-    background-size: contain;
+    background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
     position: relative;
@@ -95,6 +95,11 @@ $text-align: center;
             left:0;
             top:0;
         
+    }
+
+    &__container{
+        z-index: 1;
+        position: relative;
     }
 
     &__title{
@@ -115,7 +120,8 @@ $text-align: center;
         font-size: $font-size;
         line-height: 28px;
         text-align: $text-align;
-        margin-bottom: 79.57px;
+        margin: 0 auto 79.57px;
+        max-width: 1000px;
     }
 
     &__button{
@@ -132,6 +138,7 @@ $text-align: center;
         background-color: #FF4343;
         padding: 26px 10px;
         margin: 0 auto;
+        text-transform: uppercase;
 
 
         &:hover{
@@ -151,13 +158,12 @@ $text-align: center;
     padding: 0 20px;
     width: 100%;
     margin: 0 auto;
-    z-index: 1;
-    position: relative;
 }
 
 
 .options{
     margin-bottom: 170px;
+
     &__list{
         list-style: none;
         display:flex;
@@ -177,7 +183,7 @@ $text-align: center;
         justify-content: center;
         width: 100px;
         height:100px;
-        margin: 0 auto 29px;
+        margin: 0 auto 51px;
     }
 
     &__title{
@@ -187,9 +193,8 @@ $text-align: center;
         text-align: $text-align;
         line-height: 28px;
         color: #2D3033;
-        margin-bottom: 20px;
+        margin-bottom: 42px;
         text-transform: uppercase;
-        padding: 22px 10px;
     }
 
     &__text{
@@ -207,7 +212,8 @@ $text-align: center;
     margin-bottom: 114px;
 
     &__container{
-        max-width: 1510px;
+        max-width: 100%;
+        padding: 0;
         width: 100%;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
@@ -241,10 +247,13 @@ $text-align: center;
         opacity: 0; 
         transition: opacity 0.3s linear; 
         margin: 0 auto;
-        padding: 110px 0 128px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
      
         &-title{
-            display: block;
             font-family: $primary-font-family;
             color:$primary-color;
             font-weight: 900;
@@ -252,13 +261,11 @@ $text-align: center;
             line-height: 28px;
             text-align: $text-align;
             text-transform: uppercase; 
-            padding: 16px 10px;
-            margin-bottom: 20px;
+            margin-bottom: 37px;
             
         }
 
         &-text {
-            display: block;
             font-family: $primary-font-family;
             color: $primary-color; 
             font-weight: $font-weight;
