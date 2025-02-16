@@ -359,4 +359,7 @@
 }
 .testimonials__dot:hover {
   background-color: #7E5D6F;
+}
+.testimonials__dot:nth-child(2) {
+  background-color: #7E5D6F;
 }/*# sourceMappingURL=style.css.map */

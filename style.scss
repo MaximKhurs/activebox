@@ -401,6 +401,7 @@ $text-align: center;
         line-height: 48.74px;
         color: $primary-color;
         margin-bottom: 36px;
+        
     }
 
     &__name{
@@ -427,6 +428,9 @@ $text-align: center;
         &:hover{
             background-color: #7E5D6F;
         }
-            
+          
+        &:nth-child(2){
+            background-color: #7E5D6F;
+        }
     }
 }
