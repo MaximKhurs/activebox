@@ -289,6 +289,8 @@
   list-style: none;
   display: grid;
   grid-template-columns: repeat(3, 39px);
+  -moz-column-gap: 6px;
+       column-gap: 6px;
 }
 .team__wrapper-link {
   display: block;

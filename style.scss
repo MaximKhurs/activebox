@@ -348,6 +348,7 @@ $text-align: center;
         list-style: none;
         display: grid;
         grid-template-columns: repeat(3, 39px);
+        column-gap: 6px;
     }
 
     &__wrapper-link{
@@ -358,6 +359,7 @@ $text-align: center;
         display: flex;
         justify-content: center;
         align-items: center;
+    
     }
 }
 
