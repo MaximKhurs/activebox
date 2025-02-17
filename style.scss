@@ -306,10 +306,6 @@ $text-align: center;
         column-gap: 30px;
     }
 
-    &__worker{
-        max-width: 270px;
-        width: 100%;
-    }
 
     &__wrapper-photo{
         width: 100%;
@@ -320,6 +316,8 @@ $text-align: center;
 
     &__photo{
         object-fit: cover;
+        width: 100%;
+        height: 100%;
     }
 
     &__name{
@@ -390,7 +388,11 @@ $text-align: center;
 
     &__content{
         background-color: #5C3249;
-        padding: 116px 129px;
+        padding: 20px 50px 10px 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     &__text{

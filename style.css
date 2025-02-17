@@ -246,10 +246,6 @@
   -moz-column-gap: 30px;
        column-gap: 30px;
 }
-.team__worker {
-  max-width: 270px;
-  width: 100%;
-}
 .team__wrapper-photo {
   width: 100%;
   aspect-ratio: 1/1;
@@ -259,6 +255,8 @@
 .team__photo {
   -o-object-fit: cover;
      object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 .team__name {
   font-family: "Raleway", serif;
@@ -326,7 +324,11 @@
 }
 .testimonials__content {
   background-color: #5C3249;
-  padding: 116px 129px;
+  padding: 20px 50px 10px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .testimonials__text {
   font-family: "Cardo", serif;
