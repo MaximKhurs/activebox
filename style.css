@@ -372,4 +372,52 @@
 }
 .testimonials__dot:nth-child(2) {
   background-color: #7E5D6F;
+}
+
+.download {
+  margin-bottom: 114px;
+}
+.download__text {
+  font-size: 30px;
+  line-height: 36px;
+  color: #000;
+  font-family: "Raleway", serif;
+  font-weight: 500;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 5.29px;
+  margin: 0 auto;
+  padding: 17px 10px;
+}
+.download__text:last-of-type {
+  font-size: 18px;
+  line-height: 21.13px;
+  color: #000;
+  font-family: "Raleway", serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 47.71px;
+}
+.download__button {
+  display: block;
+  border: none;
+  background-color: #FF4343;
+  max-width: 369px;
+  width: 100%;
+  font-size: 24px;
+  line-height: 28px;
+  color: #fff;
+  font-family: "Raleway", serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 26px 10px;
+  margin: 0 auto;
+}
+.download__button:hover {
+  background-color: #E71414;
+}
+.download__button:active {
+  background-color: #FF4343;
+  box-shadow: 4px 4px 30px #FF4343;
 }/*# sourceMappingURL=style.css.map */
