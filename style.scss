@@ -74,6 +74,7 @@ $text-align: center;
         text-decoration: none;
         text-transform: uppercase;
         border-bottom: 3px solid transparent;
+        transition: all 0.3s linear;
         
         &:hover{
             border-bottom: 3px solid #BABBC5;

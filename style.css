@@ -49,6 +49,7 @@
   text-decoration: none;
   text-transform: uppercase;
   border-bottom: 3px solid transparent;
+  transition: all 0.3s linear;
 }
 .header__link:hover {
   border-bottom: 3px solid #BABBC5;
