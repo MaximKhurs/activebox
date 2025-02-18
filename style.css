@@ -454,6 +454,7 @@
   font-weight: 400;
   text-align: center;
   line-height: 21px;
+  text-transform: capitalize;
 }
 .footer__list {
   list-style: none;
@@ -489,6 +490,7 @@
   font-weight: 400;
   text-align: center;
   line-height: 21px;
+  text-transform: capitalize;
 }
 .footer__text .footer__text-author {
   color: #fff;

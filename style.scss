@@ -528,8 +528,7 @@ $text-align: center;
         font-weight: 400;
         text-align: center;
         line-height: 21px;
-
-
+        text-transform: capitalize;
     }
 
     &__list{
@@ -570,6 +569,7 @@ $text-align: center;
         font-weight: 400;
         text-align: center;
         line-height: 21px;
+        text-transform: capitalize;
     }
 
     &__text &__text-author{
