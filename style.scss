@@ -150,6 +150,7 @@ $text-align: center;
         padding: 26px 10px;
         margin: 0 auto;
         text-transform: uppercase;
+        transition: all 0.3s ease-in-out;
 
 
         &:hover{
@@ -256,7 +257,7 @@ $text-align: center;
         height: 100%;
         background: rgba(255, 67, 67, 0.8);
         opacity: 0; 
-        transition: opacity 0.3s linear; 
+        transition: all 0.5s ease-in-out; 
         margin: 0 auto;
         padding: 10px;
         display: flex;
@@ -475,6 +476,7 @@ $text-align: center;
         text-align: center;
         padding: 26px 10px;
         margin: 0 auto;
+        transition: all 0.3s ease-in-out;
 
         &:hover{
             background-color: #E71414;
