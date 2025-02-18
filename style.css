@@ -420,4 +420,76 @@
 .download__button:active {
   background-color: #FF4343;
   box-shadow: 4px 4px 30px #FF4343;
+}
+
+.footer__container {
+  max-width: 100%;
+  width: 100%;
+  background-color: #353C65;
+  padding: 71px 0 0 0;
+}
+.footer__info {
+  max-width: 1210px;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  margin: 0 auto 67px;
+}
+.footer__title {
+  font-family: "Raleway", serif;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 21px;
+  text-transform: uppercase;
+  margin-bottom: 29px;
+}
+.footer__text {
+  font-family: "Raleway", serif;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 21px;
+}
+.footer__list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 39px);
+  -moz-column-gap: 27px;
+       column-gap: 27px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 49px;
+}
+.footer__wrapper-link {
+  width: 39px;
+  height: 39px;
+  border: 1px solid #C6CBCD;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer__copyright {
+  max-width: 100%;
+  width: 100%;
+  background-color: #2C3154;
+  padding: 24px 0;
+}
+.footer__copyright .footer__text {
+  max-width: 370px;
+  width: 100%;
+  margin: 0 auto;
+  font-family: "Raleway", serif;
+  color: #808080;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 21px;
+}
+.footer__text .footer__text-author {
+  color: #fff;
 }/*# sourceMappingURL=style.css.map */
