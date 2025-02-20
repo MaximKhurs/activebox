@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  
     <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="style.css">
-
     <title>Document</title>
 </head>
 <body>
@@ -351,9 +351,9 @@
         </div>
     </div>
 
-    <div class="testimonials">
-        <div class="container testimonials__container">
-            <div class="testimonials__wrapper-content">
+    <div class="testimonials swiper mySwiper">
+        <div class="container testimonials__container swiper-wrapper">
+            <div class="testimonials__wrapper-content swiper-slide">
                 <div class="testimonials__wrapper-img">
                     <img src="images/bg.png" class="testimonials__img">
                 </div>
@@ -366,16 +366,60 @@
                     </p>
                 </div>
             </div>
-            <div class="testimonials__container-dots">
-                <button class="testimonials__dot"></button>
-                <button class="testimonials__dot"></button>
-                <button class="testimonials__dot"></button>
-                <button class="testimonials__dot"></button>
-                <button class="testimonials__dot"></button>
+            <div class="testimonials__wrapper-content swiper-slide">
+                <div class="testimonials__wrapper-img">
+                    <img src="images/bg.png" class="testimonials__img">
+                </div>
+                <div class="testimonials__content">
+                    <p class="testimonials__text">
+                        “Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam...”
+                    </p>
+                    <p class="testimonials__name">
+                        Susan Sims, Interaction Designer at XYZ
+                    </p>
+                </div>
             </div>
-
+            <div class="testimonials__wrapper-content swiper-slide">
+                <div class="testimonials__wrapper-img">
+                    <img src="images/bg.png" class="testimonials__img">
+                </div>
+                <div class="testimonials__content">
+                    <p class="testimonials__text">
+                        “Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam...”
+                    </p>
+                    <p class="testimonials__name">
+                        Susan Sims, Interaction Designer at XYZ
+                    </p>
+                </div>
+            </div>
+            <div class="testimonials__wrapper-content swiper-slide">
+                <div class="testimonials__wrapper-img">
+                    <img src="images/bg.png" class="testimonials__img">
+                </div>
+                <div class="testimonials__content">
+                    <p class="testimonials__text">
+                        “Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam...”
+                    </p>
+                    <p class="testimonials__name">
+                        Susan Sims, Interaction Designer at XYZ
+                    </p>
+                </div>
+            </div>
+            <div class="testimonials__wrapper-content swiper-slide">
+                <div class="testimonials__wrapper-img">
+                    <img src="images/bg.png" class="testimonials__img">
+                </div>
+                <div class="testimonials__content">
+                    <p class="testimonials__text">
+                        “Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam...”
+                    </p>
+                    <p class="testimonials__name">
+                        Susan Sims, Interaction Designer at XYZ
+                    </p>
+                </div>
+            </div>
         </div>
-
+        <div class="swiper-pagination"></div>
     </div>
 
     <div class="download">
@@ -436,8 +480,15 @@
                     Made with <span class="footer__text-author">by Kamal Chaneman</span></p>
             </div>
         </div>
-
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+        });
+      </script>
 </body>
-
 </html>
