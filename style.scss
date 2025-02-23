@@ -51,6 +51,10 @@ $text-align: center;
 
     }
 
+    &__logo-mobile{
+        display: none;
+    }
+    
     &__list{
         display:flex;
         list-style: none ;
@@ -86,6 +90,12 @@ $text-align: center;
         }
     }
 
+    &__wrapper-icon{
+        width:55px;
+        height: 56px;
+        display:none;
+    }
+
     @media (max-width: 1024px){
 
         &__link{
@@ -93,6 +103,33 @@ $text-align: center;
             line-height: 14px;
             min-width: 112px;
             gap: 0;
+        }
+    }
+
+    @media (max-width: 767px){
+        &__container::after{
+            display: none;
+        }
+
+        &__wrapper-logo{
+            width: 103.47px;
+            height: 14.35px;
+        }
+
+        &__logo-desktop{
+            display: none;
+        }
+
+        &__logo-mobile{
+            display:block;
+        }
+
+        &__nav{
+            display:none;
+        }
+
+        &__wrapper-icon{
+            display: block;
         }
     }
 }

@@ -28,6 +28,9 @@
   width: 184px;
   height: 26px;
 }
+.header__logo-mobile {
+  display: none;
+}
 .header__list {
   display: flex;
   list-style: none;
@@ -58,12 +61,38 @@
   color: #E71414;
   border-bottom: 3px solid #E71414;
 }
+.header__wrapper-icon {
+  width: 55px;
+  height: 56px;
+  display: none;
+}
 @media (max-width: 1024px) {
   .header__link {
     font-size: 12px;
     line-height: 14px;
     min-width: 112px;
     gap: 0;
+  }
+}
+@media (max-width: 767px) {
+  .header__container::after {
+    display: none;
+  }
+  .header__wrapper-logo {
+    width: 103.47px;
+    height: 14.35px;
+  }
+  .header__logo-desktop {
+    display: none;
+  }
+  .header__logo-mobile {
+    display: block;
+  }
+  .header__nav {
+    display: none;
+  }
+  .header__wrapper-icon {
+    display: block;
   }
 }
 
