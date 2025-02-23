@@ -319,6 +319,7 @@
 
 .testimonials {
   margin-bottom: 114px;
+  padding-bottom: 45px;
 }
 .testimonials__container {
   max-width: 100%;
@@ -328,7 +329,6 @@
 .testimonials__wrapper-content {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  margin-bottom: 31px;
 }
 .testimonials__wrapper-img {
   overflow: hidden;
@@ -371,24 +371,28 @@
   text-transform: uppercase;
   margin: 0 auto;
 }
-.testimonials__container-dots {
+.testimonials .swiper-pagination {
   display: flex;
   -moz-column-gap: 25px;
        column-gap: 25px;
   justify-content: center;
+  align-items: center;
 }
-.testimonials__dot {
+.testimonials .swiper-pagination-bullet {
   width: 14px;
   height: 14px;
   border: 1px solid #7E5D6F;
-  border-radius: 50%;
-  background-color: #fff;
+  background-color: transparent;
+  opacity: 1;
 }
-.testimonials__dot:hover {
+.testimonials .swiper-pagination-bullet-active {
   background-color: #7E5D6F;
 }
-.testimonials__dot:nth-child(2) {
-  background-color: #7E5D6F;
+.testimonials.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, .testimonials.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 0;
+}
+.testimonials .swiper-horizontal > .swiper-pagination-bullets, .testimonials .swiper-pagination-bullets.swiper-pagination-horizontal, .testimonials .swiper-pagination-custom, .testimonials .swiper-pagination-fraction {
+  bottom: 0;
 }
 
 .download {
