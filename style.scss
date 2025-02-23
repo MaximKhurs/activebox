@@ -358,9 +358,30 @@ $text-align: center;
         display: flex;
         justify-content: center;
         align-items: center;
-    
+        transition: all 0.3s ease-in-out;
+
+        & svg path{
+            transition: fill 0.3s ease-in-out;
+        }
+        
+
+        &:hover{
+            border-color: #E71414;
+        }
+
+        &:hover svg path{
+            fill: #E71414;
+        }
+
+        &:active{
+            border-color: #FF4343;
+        }
+
+        &:active svg path{
+            fill: #FF4343;
+        }
     }
-}
+    }
 
 .testimonials{
      margin-bottom: 114px;
@@ -449,22 +470,23 @@ $text-align: center;
 .download{
     margin-bottom: 114px;
 
-    &__text{
+    &__title{
         @include font(30px, 36px, #000, 500);
         text-transform: capitalize;
         text-align: center;
-        margin-bottom: 5.29px;
-        margin: 0 auto;
-        padding: 17px 10px;
+        margin-bottom: 22px;
+        
+    }
     
-
-        &:last-of-type{
+    
+    &__text{
             @include font(18px, 21.13px, #000, 700);    
             text-transform: uppercase;
+            text-align: center;
             margin-bottom: 47.71px;
         }
     
-    }
+    
     &__button{
         display: block;
         border: none;
@@ -551,8 +573,31 @@ $text-align: center;
         display: flex;
         justify-content: center;
         align-items: center;
-    
+        transition: all 0.3s ease-in-out;
+
+        & svg path{
+            transition: fill 0.3s ease-in-out;
+        }
+        
+
+        &:hover{
+            border-color: #E71414;
+        }
+
+        &:hover svg path{
+            fill: #E71414;
+        }
+
+        &:active{
+            border-color: #FF4343;
+        }
+
+        &:active svg path{
+            fill: #FF4343;
+        }
     }
+
+
 
     &__copyright{
         max-width: 100%;
@@ -572,6 +617,11 @@ $text-align: center;
         text-align: center;
         line-height: 21px;
         text-transform: capitalize;
+    }
+
+    &__wrapper-text{
+        max-width: 370px;
+        margin: 0 auto;
     }
 
     &__text &__text-author{
