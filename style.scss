@@ -130,6 +130,7 @@ $text-align: center;
         &__wrapper-icon{
             display: block;
         }
+
     }
 }
 
@@ -226,9 +227,42 @@ $text-align: center;
         }
 
         &__button{
-            max-width:314px;
+            max-width:280px;
+            padding: 16px 10px;
             width:100%;
 
+        }
+    }
+
+    @media(max-width: 767px){
+        padding: 106px 0 52px;
+        margin-bottom: 40px;
+
+        background-image: url(images/banner-mob.png);
+        &__title{
+            font-size: 36px;
+            line-height: 42.26px;
+            margin-bottom: 32.71px ;
+        }
+        
+        &__text{
+            font-size: 14px;
+            line-height: 16.44px;
+            margin-bottom: 49.29px ;
+        }
+
+        &__button{
+            max-width: 280px;
+            width:100%;
+
+            &:hover{
+                background-color: #FF4343;
+            }
+
+            &:active{
+                box-shadow: none;
+
+            }
         }
     }
 }
@@ -243,6 +277,11 @@ $text-align: center;
     @media (max-width: 1024px){
         max-width: 1024px;
     }
+
+    @media(max-width: 767px){
+        max-width: 767px;
+    }
+        
 }
 
 
@@ -325,7 +364,39 @@ $text-align: center;
         }
 
     }
+
+    @media(max-width:767px){
+        margin-bottom:34.85px;
+
+
+        &__list{
+            display: flex;
+            flex-direction: column;
+            row-gap:41.46px;
+            column-gap:0;
+           
+        }
+
+        &__item{
+            max-width: 279px;
+            width: 100%;
+        }
+
+        &__wrapper-icon{
+            width: 75.75px;
+            height: 75.75px;
+            margin: 0 auto 37.45px;
+        }
+
+        &__title{
+            margin-bottom: 16.5px;
+        }
+
+       
+
+    }
 }
+
 
 .design{
     margin-bottom: 114px;
@@ -420,6 +491,18 @@ $text-align: center;
             }
         }
     }
+
+    @media(max-width: 767px){
+        margin-bottom: 35px;
+
+        &__container{
+            grid-template-columns: repeat(2,1fr);
+        }
+        &__overlay{
+            display:none;
+        }
+
+    }
 }
 
 .team{
@@ -513,13 +596,13 @@ $text-align: center;
         }
 
         &__wrapper-photo{
-            margin-bottom: 25.23px;
+            margin-bottom: 27.35px;
         }
 
         &__name{
             font-size: 18px;
             line-height: 21px;
-            margin-bottom: 4.6px;
+            margin-bottom: 6.735px;
         }
 
         &__profession{
@@ -528,6 +611,9 @@ $text-align: center;
             margin-bottom: 22.45px;
         }
 
+        &__text{
+            margin-bottom: 39.2px;
+        }
         &__list{
             grid-template-columns: repeat(3, 32.8px);
             column-gap: 5.05px;
@@ -538,6 +624,44 @@ $text-align: center;
             height: 32.8px;
         }
 
+    }
+    @media(max-width: 767px){
+        &__container{
+            display: block;
+        }
+
+        &__worker{
+            margin-bottom: 56px;
+        }
+        &__wrapper-photo{
+            margin-bottom: 27.4px;
+        }
+
+        &__profession{
+            margin-bottom: 38.5px;
+        }
+
+        &__text{
+            margin-bottom: 55.15px;
+        }
+
+        &__list{
+            grid-template-columns: repeat(3, 39.6px);
+            column-gap: 5.05px;
+        }
+
+        &__wrapper-link{
+            width: 39.6px;
+            height: 39.6px;
+
+            &:hover, &:active{
+                border-color: #C6CBCD;
+                
+            }
+            &:hover svg path, &:active svg path{
+                fill: #C6CBCD;
+            }
+        }
     }
     }
 
@@ -659,6 +783,40 @@ $text-align: center;
             height: 9.49px;
         }
     }
+
+    @media( max-width: 767px){
+
+        margin-bottom: 53.5px;
+        padding-bottom: 32.5px;
+
+        &__wrapper-content{
+            display:block;
+        }
+
+        &__content{
+            padding: 21.8px 10px 78.25px 15px;
+        }
+
+        &__text{
+            max-width: 275px;
+            width: 100%;
+            margin-bottom: 28.3px;
+        }
+
+        &__name{
+            max-width: 275px;
+            width: 100%;
+        }
+
+        .swiper-pagination-bullet{
+            width: 9.49px;
+            height: 9.49px;
+        }
+
+        .swiper-pagination{
+            column-gap: 20.5px;
+        }
+    }
 }
 
 
@@ -710,7 +868,6 @@ $text-align: center;
         &__title{
             font-size: 24px;
             line-height: 28px;
-            margin: 0;
             margin-bottom: 20.7px;
         }
 
@@ -726,6 +883,38 @@ $text-align: center;
             line-height: 22px;
             padding: 29px 10px;
         }
+    }
+
+    @media(max-width:767px){
+        margin-bottom: 45px;
+
+        &__title{
+            font-size: 18px;
+            line-height: 21.13px;
+            margin-bottom: 22px;
+        }
+
+        &__text{
+            font-size: 13px;
+            line-height: 15.26px;
+            margin-bottom: 11px;
+        }
+
+        &__button{
+            max-width: 279px;
+            line-height: 22px;
+            padding: 29px 10px;
+
+            &:hover{
+                background-color: #FF4343;
+            }
+
+            &:active{
+                box-shadow: none;
+
+            }
+        }
+
     }
 }
 
@@ -868,8 +1057,8 @@ $text-align: center;
             grid-template-columns: repeat(3, 33px);
         }
         &__wrapper-link{
-            width: 32px;
-            height: 32px;
+            width: 33px;
+            height: 33px;
         }
 
         &__copyright{
@@ -883,7 +1072,59 @@ $text-align: center;
 
         &__wrapper-text{
             max-width: 314px;
-            margin: 0 auto;
+        }
+    }
+
+    @media(max-width: 767px){
+
+        &__container{
+            padding: 34.14px 0 0 0;
+        }
+
+        &__info{
+            max-width: 767px;
+            display:block;
+            margin: 0 auto 33.14px;
+        }
+
+        &__location{
+            margin-bottom: 69.24px;
+        }
+
+        &__title{
+            margin-bottom: 34px;
+        }
+
+        &__social{
+            margin-bottom: 59px;
+        }
+
+        &__social &__title{
+            margin-bottom: 36.71px;
+        }
+
+        &__list{
+            margin-top: 0; 
+        }
+
+        &__about &__title{
+            margin-bottom: 38.7px;
+        }
+
+        &__wrapper-text{
+            max-width: 280px;
+        }
+
+        &__wrapper-link{
+
+            &:hover, &:active{
+                border-color: #C6CBCD;
+                
+            }
+            &:hover svg path, &:active svg path{
+                fill: #C6CBCD;
+            }
+
         }
     }
 
