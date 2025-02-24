@@ -102,7 +102,6 @@ $text-align: center;
             font-size: 12px;
             line-height: 14px;
             min-width: 112px;
-            gap: 0;
         }
     }
 
@@ -300,8 +299,6 @@ $text-align: center;
         &__list{
             column-gap:20px;
             row-gap: 49.84px;
-            justify-content: center;
-            align-items: center;
         }
 
         &__item{
@@ -312,14 +309,13 @@ $text-align: center;
         &__wrapper-icon{
             width: 85px;
             height:83.97px;
-            margin: 0 auto 24.52px;
+            margin: 0 auto 44.3px;
         }
 
         &__title{
             font-size: 18px;
             line-height:21px;
-            padding: 20px 10px;
-            margin-bottom: 3.45px;
+            margin-bottom: 23.73px;
         }
 
         &__text{
@@ -411,16 +407,11 @@ $text-align: center;
             margin-bottom: 78.22px;
 
             &__overlay{
-                max-width: 257.7px;
-                width: 100%;
-                padding: 0;
-            
-            
+                
             &-title{
                 font-size: 18px;
                 line-height: 21px;
-                margin-bottom: 0;
-                padding: 10px 10px;
+                margin-bottom: 22.7px;
             }
 
             &-text{
@@ -720,8 +711,7 @@ $text-align: center;
             font-size: 24px;
             line-height: 28px;
             margin: 0;
-            padding: 16px 10px;
-            margin-bottom: 4.71px;
+            margin-bottom: 20.7px;
         }
 
         &__text{
@@ -830,9 +820,6 @@ $text-align: center;
     }
 
     &__copyright &__text{
-        max-width: 370px;
-        width: 100%;
-        margin: 0 auto;
         font-family: $primary-font-family;
         color: #808080;
         font-size: 18px;
@@ -843,8 +830,9 @@ $text-align: center;
     }
 
     &__wrapper-text{
-        max-width: 370px;
+        max-width: 410px;
         margin: 0 auto;
+        padding: 0 20px;
     }
 
     &__text &__text-author{
