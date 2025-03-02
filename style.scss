@@ -377,7 +377,7 @@ $text-align: center;
         }
 
         &__item{
-            max-width: 279px;
+            max-width: 100%;
             width: 100%;
         }
 
@@ -631,6 +631,10 @@ $text-align: center;
 
         &__worker{
             margin-bottom: 56px;
+
+            &:last-of-type{
+                margin-bottom: 0;
+            }
         }
         &__wrapper-photo{
             margin-bottom: 27.4px;
@@ -681,6 +685,7 @@ $text-align: center;
     
     &__wrapper-img{
         overflow: hidden;
+        aspect-ratio: 1 / 0.5;
     }
 
     &__img{
@@ -793,17 +798,17 @@ $text-align: center;
         }
 
         &__content{
-            padding: 21.8px 10px 78.25px 15px;
+            padding: 33px 20px 95px;
         }
 
         &__text{
-            max-width: 275px;
+            max-width: 100%;
             width: 100%;
             margin-bottom: 28.3px;
         }
 
         &__name{
-            max-width: 275px;
+            max-width: 100%;
             width: 100%;
         }
 
@@ -1061,7 +1066,7 @@ $text-align: center;
         }
 
         &__copyright{
-            padding: 14.37px;
+            padding: 14.37px 0;
         }
 
         &__copyright &__text{
@@ -1111,7 +1116,7 @@ $text-align: center;
         }
 
         &__wrapper-text{
-            max-width: 280px;
+            max-width: 320px;
         }
 
         &__wrapper-link{
